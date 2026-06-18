@@ -10,8 +10,6 @@ LLVM 18, and AMD RX 6800–friendly defaults. Packaged as a portable AppImage.
 - PPU & shader compilation hints default to off
 - "Use Re-BAR memory for GPU uploads" setting removed
 - Custom GitHub & YouTube buttons in About dialog
-- "Nobody likes HoldTheMourning" added to frozen/crash hint
-- HoldTheMourning removed from contributor credits
 
 Built from commit `c0598f61` of [RPCS3/rpcs3](https://github.com/RPCS3/rpcs3).
 
@@ -32,32 +30,6 @@ For discussion about this emulator, PS3 emulation, and game compatibility report
 If you want to help the project but do not code, the best way to help out is to test games and make bug reports. See:
 * [Quickstart](https://rpcs3.net/quickstart)
 
-If you want to contribute as a developer, please take a look at the following pages:
-
-* [Coding Style](https://github.com/RPCS3/rpcs3/wiki/Coding-Style)
-* [Developer Information](https://github.com/RPCS3/rpcs3/wiki/Developer-Information)
-
-You should also contact any of the developers in the forums or in the Discord server to learn more about the current state of the emulator.
-
-### AI Use
-
-Use of AI tools for research and reverse engineering purposes is permitted. However, contributors are expected to fully own and understand all code they submit. Any communication with the team — including code, code comments, and GitHub comments — must come from the human contributor, not an AI agent acting autonomously.
-
-We have unfortunately seen a rise in untested and unverified AI-generated slop being submitted to this project. This wastes maintainer time and, in worse cases, such changes get merged and break functionality for all users. Repeated violations will result in a ban from the repository. Please be respectful of everyone's time.
-
-**Pull requests opened by AI agents or automated tools must include a disclosure in the PR description** stating the scope of AI involvement — which parts were AI-generated and what human testing or review was performed prior to submission. PRs that omit this disclosure may be closed without review.
-
-If you are unsure about your work, open a discussion issue to talk it through with the team, or reach out to a maintainer on [Discord](https://discord.gg/RPCS3).
-
-## Building
-
-See [BUILDING.md](BUILDING.md) for more information about how to setup an environment to build RPCS3.
-
-## Running
-
-Check our friendly [quickstart](https://rpcs3.net/quickstart) guide to make sure your computer meets the minimum system requirements to run RPCS3.
-
-Don't forget to have your graphics driver up to date and to install the [Visual C++ Redistributable Packages for Visual Studio 2022](https://aka.ms/vs/17/release/VC_redist.x64.exe) if you are a Windows user.
 
 ## License
 
